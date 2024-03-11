@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Term */
+.term {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Note */
+.note {
+  position: absolute;
+  padding: 20px 15px;
+  margin-top: 40px;
+  width: 70%;
+  font-size: 13px;
+  color: #5a5147;
+  border-radius: 3px;
+  background: #f0dfbb;
+  box-shadow: rgba(90, 81, 71, 0.5) 0px 2px 3px 0px;
+}
+.note-title {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: bold;
+}
