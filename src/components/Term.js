@@ -23,7 +23,7 @@ function Term({ word, symbol }, ref) {
     setCurrentTerm(word);
     setCurrentSymbol(symbol);
   };
-  
+
   const handleMouseout = () => {
     setHovered(false);
     setCurrentTerm('');

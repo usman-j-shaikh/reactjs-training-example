@@ -4,7 +4,7 @@ import Contact from "./pages/Contact";
 
 const routes = [
     {
-        path: '/home', component: <Home/> 
+        path: '/*', component: <Home/> 
     },
     {
         path: '/about', component: <About />
